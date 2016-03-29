@@ -1,0 +1,12 @@
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\bin\Debug\Caffeine.exe.config
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\obj\Debug\Caffeine.vbprojResolveAssemblyReference.cache
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\obj\Debug\Caffeine.Caffeine.resources
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\obj\Debug\Caffeine.Resources.resources
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\obj\Debug\Caffeine.vbproj.GenerateResource.Cache
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\obj\Debug\Caffeine.xml
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\bin\Debug\Caffeine.exe
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\bin\Debug\Caffeine.pdb
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\bin\Debug\Caffeine.xml
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\obj\Debug\Caffeine.exe
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\obj\Debug\Caffeine.pdb
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\obj\Debug\Caffeine.About.resources

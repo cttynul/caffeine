@@ -1,0 +1,13 @@
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\bin\Release\Caffeine.exe.config
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\bin\Release\Caffeine.exe
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\bin\Release\Caffeine.pdb
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\bin\Release\Caffeine.xml
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\obj\Release\Caffeine.vbprojResolveAssemblyReference.cache
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\obj\Release\Caffeine.About.resources
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\obj\Release\Caffeine.Caffeine.resources
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\obj\Release\Caffeine.Resources.resources
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\obj\Release\Caffeine.vbproj.GenerateResource.Cache
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\obj\Release\Caffeine.exe
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\obj\Release\Caffeine.xml
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\obj\Release\Caffeine.pdb
+D:\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\obj\Release\Caffeine.TrustInfo.xml
