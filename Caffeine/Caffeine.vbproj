@@ -66,7 +66,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>CaffineIconBlack.ico</ApplicationIcon>
+    <ApplicationIcon>caffeineico.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>55D421DD112A74D0C27644243959430C5B95B843</ManifestCertificateThumbprint>
@@ -170,6 +170,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="caffeineico.ico" />
     <Content Include="CaffeineTrayIcon.ico" />
     <Content Include="CaffineIconBlack.ico" />
     <None Include="Resources\GPLv3.png" />

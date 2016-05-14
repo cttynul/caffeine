@@ -59,6 +59,7 @@ Public Class Caffeine
         Dim result = MessageBox.Show("Are you sure you want to close Caffeine? If you want to keep it running click resize!", "Close Caffeine", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
         If (result = DialogResult.No) Then
             'Close Application
+            RestoreMonitorSettings()
             e.Cancel = True
         End If
 
@@ -101,6 +102,7 @@ Public Class Caffeine
         If My.User.IsInRole(ApplicationServices.BuiltInRole.Administrator) Then
             'Ok
         Else
+            CheckBoxStartup.CheckState = CheckState.Indeterminate
             MsgBox("You need to run Caffeine as Administrator to change this setting", 16, "Error")
         End If
     End Sub
