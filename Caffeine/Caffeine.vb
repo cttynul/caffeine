@@ -36,13 +36,15 @@ Public Class Caffeine
         Me.WindowState = FormWindowState.Minimized
         If Me.WindowState = FormWindowState.Minimized Then
             Me.Hide()
+            CaffeineTaskBar.ShowBalloonTip(2000, "Caffeine is not running", "Right click taskbar icon to start Caffeine", ToolTipIcon.None)
         End If
     End Sub
 
     Private Sub Caffeine_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Me.Hide()
-        CaffeineTaskBar.Visible = True
-
+        If CaffeineTaskBar.Visible = True Then
+            'nothing
+        End If
         'If My.Computer.Registry.LocalMachine.OpenSubKey("SOFTWARE\Microsoft\Windows\CurrentVersion\Run", True).GetValue(Application.ProductName, Application.ExecutablePath) Is Nothing Then
         'MsgBox("Debug")
         'End If
@@ -51,7 +53,7 @@ Public Class Caffeine
 
     Private Sub Caffeine_Resize(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Resize
         If Me.WindowState = FormWindowState.Minimized Then
-            Me.Hide()
+            'Me.Hide()
         End If
     End Sub
 
@@ -68,11 +70,13 @@ Public Class Caffeine
     Private Sub StartStopCaffeineToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles StartStopCaffeineToolStripMenuItem.Click
         If StartStopCaffeineToolStripMenuItem.Text = "Start Caffeine" And StartCaffeineToolStripMenuItem.Text = "Start Caffeine" Then
             KeepMonitorActive()
+            CaffeineTaskBar.ShowBalloonTip(2000, "Caffeine is running", "Right click taskbar icon to stop Caffeine", ToolTipIcon.None)
             StartStopCaffeineToolStripMenuItem.Text = "Stop Caffeine"
             StartCaffeineToolStripMenuItem.Text = "Stop Caffeine"
 
         ElseIf StartStopCaffeineToolStripMenuItem.Text = "Stop Caffeine" And StartCaffeineToolStripMenuItem.Text = "Stop Caffeine" Then
             RestoreMonitorSettings()
+            CaffeineTaskBar.ShowBalloonTip(2000, "Caffeine is not running anymore", "Right click taskbar icon to start Caffeine", ToolTipIcon.None)
             StartStopCaffeineToolStripMenuItem.Text = "Start Caffeine"
             StartCaffeineToolStripMenuItem.Text = "Start Caffeine"
         End If
@@ -130,11 +134,13 @@ Public Class Caffeine
     Private Sub StartCaffeineToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles StartCaffeineToolStripMenuItem.Click
         If StartStopCaffeineToolStripMenuItem.Text = "Start Caffeine" And StartCaffeineToolStripMenuItem.Text = "Start Caffeine" Then
             KeepMonitorActive()
+            CaffeineTaskBar.ShowBalloonTip(2000, "Caffeine is running", "Right click taskbar icon to stop Caffeine", ToolTipIcon.None)
             StartStopCaffeineToolStripMenuItem.Text = "Stop Caffeine"
             StartCaffeineToolStripMenuItem.Text = "Stop Caffeine"
 
         ElseIf StartStopCaffeineToolStripMenuItem.Text = "Stop Caffeine" And StartCaffeineToolStripMenuItem.Text = "Stop Caffeine" Then
             RestoreMonitorSettings()
+            CaffeineTaskBar.ShowBalloonTip(2000, "Caffeine is not running", "Right click taskbar icon to start Caffeine", ToolTipIcon.None)
             StartStopCaffeineToolStripMenuItem.Text = "Start Caffeine"
             StartCaffeineToolStripMenuItem.Text = "Start Caffeine"
         End If

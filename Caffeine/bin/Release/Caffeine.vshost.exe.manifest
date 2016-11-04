@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Caffeine.exe" size="147392">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Caffeine.exe" size="131008">
       <assemblyIdentity name="Caffeine" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>7z5MhiJsaopeoLks2/rRBeNoQjcV5GqvisC/+Fm0pi0=</dsig:DigestValue>
+        <dsig:DigestValue>b7j6KaOLmXU7njnsUIcvE48W3bIBR7E8sVtVQgpg//Y=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

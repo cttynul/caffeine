@@ -28,3 +28,20 @@ C:\Users\Cttynul\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\bin\Release\
 C:\Users\Cttynul\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\bin\Release\Caffeine.xml
 C:\Users\Cttynul\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\obj\Release\Caffeine.exe.manifest
 C:\Users\Cttynul\Dropbox\Developing\Visual Studio\Caffeine\Caffeine\obj\Release\Caffeine.application
+C:\Users\Cttynul\Documents\GitHub\caffeine\Caffeine\bin\Release\Caffeine.exe.config
+C:\Users\Cttynul\Documents\GitHub\caffeine\Caffeine\obj\Release\Caffeine.exe
+C:\Users\Cttynul\Documents\GitHub\caffeine\Caffeine\obj\Release\Caffeine.xml
+C:\Users\Cttynul\Documents\GitHub\caffeine\Caffeine\obj\Release\Caffeine.pdb
+C:\Users\Cttynul\Documents\GitHub\caffeine\Caffeine\obj\Release\Caffeine.vbprojResolveAssemblyReference.cache
+C:\Users\Cttynul\Documents\GitHub\caffeine\Caffeine\obj\Release\Caffeine.About.resources
+C:\Users\Cttynul\Documents\GitHub\caffeine\Caffeine\obj\Release\Caffeine.Caffeine.resources
+C:\Users\Cttynul\Documents\GitHub\caffeine\Caffeine\obj\Release\Caffeine.Resources.resources
+C:\Users\Cttynul\Documents\GitHub\caffeine\Caffeine\obj\Release\Caffeine.vbproj.GenerateResource.Cache
+C:\Users\Cttynul\Documents\GitHub\caffeine\Caffeine\obj\Release\Caffeine.TrustInfo.xml
+C:\Users\Cttynul\Documents\GitHub\caffeine\Caffeine\bin\Release\Caffeine.exe.manifest
+C:\Users\Cttynul\Documents\GitHub\caffeine\Caffeine\bin\Release\Caffeine.application
+C:\Users\Cttynul\Documents\GitHub\caffeine\Caffeine\bin\Release\Caffeine.exe
+C:\Users\Cttynul\Documents\GitHub\caffeine\Caffeine\bin\Release\Caffeine.pdb
+C:\Users\Cttynul\Documents\GitHub\caffeine\Caffeine\bin\Release\Caffeine.xml
+C:\Users\Cttynul\Documents\GitHub\caffeine\Caffeine\obj\Release\Caffeine.exe.manifest
+C:\Users\Cttynul\Documents\GitHub\caffeine\Caffeine\obj\Release\Caffeine.application
