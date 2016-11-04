@@ -56,30 +56,30 @@ Partial Class Caffeine
         Me.ContextMenuStrip.BackColor = System.Drawing.SystemColors.Window
         Me.ContextMenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.StartStopCaffeineToolStripMenuItem, Me.SettingToolStripMenuItem, Me.AboutToolStripMenuItem, Me.ExitToolStripMenuItem})
         Me.ContextMenuStrip.Name = "ContextMenuStrip"
-        Me.ContextMenuStrip.Size = New System.Drawing.Size(145, 92)
+        Me.ContextMenuStrip.Size = New System.Drawing.Size(146, 92)
         '
         'StartStopCaffeineToolStripMenuItem
         '
         Me.StartStopCaffeineToolStripMenuItem.Name = "StartStopCaffeineToolStripMenuItem"
-        Me.StartStopCaffeineToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
+        Me.StartStopCaffeineToolStripMenuItem.Size = New System.Drawing.Size(145, 22)
         Me.StartStopCaffeineToolStripMenuItem.Text = "Start Caffeine"
         '
         'SettingToolStripMenuItem
         '
         Me.SettingToolStripMenuItem.Name = "SettingToolStripMenuItem"
-        Me.SettingToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
+        Me.SettingToolStripMenuItem.Size = New System.Drawing.Size(145, 22)
         Me.SettingToolStripMenuItem.Text = "Setting"
         '
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(145, 22)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(145, 22)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'CheckBoxStartup
@@ -126,19 +126,19 @@ Partial Class Caffeine
         'StartCaffeineToolStripMenuItem
         '
         Me.StartCaffeineToolStripMenuItem.Name = "StartCaffeineToolStripMenuItem"
-        Me.StartCaffeineToolStripMenuItem.Size = New System.Drawing.Size(89, 20)
+        Me.StartCaffeineToolStripMenuItem.Size = New System.Drawing.Size(90, 20)
         Me.StartCaffeineToolStripMenuItem.Text = "Start Caffeine"
         '
         'AboutToolStripMenuItem1
         '
         Me.AboutToolStripMenuItem1.Name = "AboutToolStripMenuItem1"
-        Me.AboutToolStripMenuItem1.Size = New System.Drawing.Size(51, 20)
+        Me.AboutToolStripMenuItem1.Size = New System.Drawing.Size(52, 20)
         Me.AboutToolStripMenuItem1.Text = "About"
         '
         'CheckForUpdatesToolStripMenuItem
         '
         Me.CheckForUpdatesToolStripMenuItem.Name = "CheckForUpdatesToolStripMenuItem"
-        Me.CheckForUpdatesToolStripMenuItem.Size = New System.Drawing.Size(114, 20)
+        Me.CheckForUpdatesToolStripMenuItem.Size = New System.Drawing.Size(116, 20)
         Me.CheckForUpdatesToolStripMenuItem.Text = "Check for Updates"
         '
         'Logo
@@ -193,7 +193,7 @@ Partial Class Caffeine
     End Sub
 
     Friend WithEvents CaffeineTaskBar As NotifyIcon
-    Friend WithEvents ContextMenuStrip As ContextMenuStrip
+    Shadows WithEvents ContextMenuStrip As ContextMenuStrip
     Friend WithEvents StartStopCaffeineToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SettingToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AboutToolStripMenuItem As ToolStripMenuItem
