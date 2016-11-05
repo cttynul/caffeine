@@ -13,7 +13,7 @@ Caffeine now on **Windows**.
 ###Download
 Download last version from 
 ```
-https://github.com/cttynul/caffeine/releases
+https://github.com/cttynul/caffeine/raw/master/Caffeine/bin/Release/Caffeine.exe
 ```
 
 ###License and more
