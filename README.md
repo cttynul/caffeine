@@ -1,5 +1,9 @@
 # Caffeine ☕
 
+<p align="center">
+  <img alt="BetterCap" src="https://i.imgur.com/6oFsaV6.jpeg" height="150" />
+</p>
+
 Are you tired of your Windows PC dozing off when you need it most? Does your ~~status on Teams, Slack, or Webex keep turning "away" while you're just deep in thought or~~ PC go to sleep when grabbing another coffee?? **Caffeine** is here to keep your PC wide awake and your status forever green!
 
 Caffeine is a simple yet effective script that prevents your Windows machine from going to sleep. No more fiddling with power settings or jiggling your mouse every few minutes.
@@ -53,6 +57,11 @@ For historical reasons, the original Visual Basic .NET version is still included
     ```bash
     python caffeine.py
     ```
+
+---
+
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/cttynul/caffeine.svg?variant=adaptive)](https://starchart.cc/cttynul/caffeine)
 
 ---
 
