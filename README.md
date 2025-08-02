@@ -10,6 +10,14 @@ Caffeine is a simple yet effective script that prevents your Windows machine fro
 
 ---
 
+## Disclaimer
+
+Now, a tiny, almost imperceptible disclaimer, whispered softly like a secret between friends: I take absolutely no responsibility if, by some twisted turn of fate, you're violating some obscure, arcane policy with this software. Because, let's be honest, if you've made it this far, past the initial setup screens and through the labyrinthine layers of IT bureaucracy, it's entirely possible that changing this particular setting isn't even an option in your PC's settings. You're probably in a situation where the only way out is through, or, you know, a strongly worded email to IT that will inevitably be ignored.
+
+So, go forth, compile your hearts out, and may your executables run ever so smoothly. Just don't blame me when the corporate overlords discover your ingenious workaround. I'm just here to provide the chuckles and the occasional, entirely unhelpful, advice.
+
+---
+
 ## How It Works
 
 Caffeine's secret is delightfully simple: it **simulates a keyboard key press every minute.** Don't worry, it's not pressing `Shift` or `Space` and messing up your work. Instead, it presses an **"unassigned" virtual key** that Windows recognizes as activity, but doesn't actually do anything in your applications. This clever trick keeps your system active, preventing it from entering sleep mode due to inactivity.
@@ -38,17 +46,27 @@ For historical reasons, the original Visual Basic .NET version is still included
 
 ### PowerShell
 
-1.  **Download:** Grab the `caffeine.ps1` file from this repository.
+1.  **Download:** Grab the `Caffeine.ps1` file from this repository.
+    ```powershell
+     Invoke-WebRequest -Uri "https://raw.githubusercontent.com/cttynul/caffeine/refs/heads/master/Powershell/Caffeine.ps1" -OutFile (Join-Path -Path (Get-Location) -ChildPath "Caffeine.ps1")
+    ```
 2.  **Run:** Open PowerShell and navigate to the directory where you saved the file. Then run:
     ```powershell
     .\Caffeine.ps1
     ```
-    *You might need to adjust your PowerShell execution policy if you encounter errors. You can temporarily set it with `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`.*
+3.  **Optional:** If you want to set a timeout different then the default one (60 secons) run:
+    ```powershell
+    .\Caffeine.ps1 -Wait 120 #120 seconds
+    ```
+**Note:** *You may not have permission to run Powershell or they could be restricted by your admin so you could set execution policy for current user with* `Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser`.
 
 ### Python
 
 1.  **Prerequisites:** Make sure you have Python installed.
 2.  **Download:** Get the `caffeine.py` file.
+    ```powershell
+     Invoke-WebRequest -Uri "https://raw.githubusercontent.com/cttynul/caffeine/refs/heads/master/Powershell/Caffeine.ps1" -OutFile (Join-Path -Path (Get-Location) -ChildPath "caffeine.py")
+    ```
 3.  **Install dependencies:** You might need `pywin32` for Windows-specific keypresses. Install it via pip:
     ```bash
     pip install pywin32
@@ -57,6 +75,16 @@ For historical reasons, the original Visual Basic .NET version is still included
     ```bash
     python caffeine.py
     ```
+5.  **Optional:** If you want to set a timeout different then the default one (60 secons) run:
+    ```bash
+    python caffeine.py -t 120 #120 seconds, can be used both -t and --time
+    ```
+---
+
+## Why not a an .exe or similar?
+Alright, let's get down to brass tacks, or should I say, compiled bytes. You're wondering why not just stick to a good old .exe or something equally, well, executable? And frankly, it's a stellar question, much like asking why we still haven't achieved teleportation when clearly, it's the superior mode of travel.
+
+Here's the deal: if your laptop is happily chugging along with `powershell.exe` or `python.exe` doing its thing, the chances of someone "accidentally" unleashing a nefarious trigger are, shall we say, astronomically low. We're talking "finding a unicorn riding a skateboard" levels of improbability. These are the workhorses, the unsung heroes, the digital equivalent of that one friend who always brings a spare phone charger. They're meant to be there, doing their job, not secretly plotting world domination (at least, not yet).
 
 ---
 
