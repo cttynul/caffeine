@@ -43,6 +43,8 @@ Follow these simple steps to install **Caffeine** on your system:
 3. Checks if your PowerShell profile file (`$profile`) exists. If not, it creates it.
 4. Adds a command to the profile to start `Caffeine.ps1` as a background process using `Start-Process`.
 
+---
+
 ## Versions Available
 
 We've got Caffeine brewing in a few different flavors to suit your preference:
