@@ -1,7 +1,7 @@
 # Caffeine ☕
 
 <p align="center">
-  <img alt="caffeine" src="https://i.imgur.com/6oFsaV6.jpeg" height="150" />
+  <img alt="caffeine" src="https://i.imgur.com/2WBg8P3.png" height="150" />
 </p>
 
 Are you tired of your Windows PC dozing off when you need it most? Does your ~~status on Teams, Slack, or Webex keep turning "away" while you're just deep in thought or~~ PC go to sleep when grabbing another coffee?? **Caffeine** is here to keep your PC wide awake and your status forever green!
@@ -23,6 +23,25 @@ So, go forth, compile your hearts out, and may your executables run ever so smoo
 Caffeine's secret is delightfully simple: it **simulates a keyboard key press every minute.** Don't worry, it's not pressing `Shift` or `Space` and messing up your work. Instead, it presses an **"unassigned" virtual key** that Windows recognizes as activity, but doesn't actually do anything in your applications. This clever trick keeps your system active, preventing it from entering sleep mode due to inactivity.
 
 ---
+
+## Quick stealth setup
+Follow these simple steps to install **Caffeine** on your system:
+
+1.  Download `Install.ps1` file and save it to a folder of your choice.
+    ```powershell
+     Invoke-WebRequest -Uri "https://raw.githubusercontent.com/cttynul/caffeine/refs/heads/master/Powershell/Install.ps1" -OutFile (Join-Path -Path (Get-Location) -ChildPath "Install.ps1")
+    ```
+2.  Run the script:
+    ```powershell
+    .\Install.ps1
+    ```
+3. Open Powershell everytime you want a coffee and wait for magic.
+
+## How stealth setup works
+1. The installer script `Install.ps1` performs the following steps:
+2. Downloads last `Caffeine.ps1` from this repository.
+3. Checks if your PowerShell profile file (`$profile`) exists. If not, it creates it.
+4. Adds a command to the profile to start `Caffeine.ps1` as a background process using `Start-Process`.
 
 ## Versions Available
 
