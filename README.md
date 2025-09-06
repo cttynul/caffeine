@@ -24,6 +24,28 @@ Caffeine's secret is delightfully simple: it **simulates a keyboard key press ev
 
 ---
 
+## Versions Available
+
+We've got Caffeine brewing in a few different flavors to suit your preference:
+
+### PowerShell Version (Recommended)
+
+This is the **recommended** version for most Windows users. It's easy to run, integrates well with the system, and doesn't require any extra installations if you have PowerShell (which you do!).
+
+### Python Version (Recommended)
+
+If you're a Python enthusiast, this version is for you! It offers cross-platform potential (though currently focused on Windows) and is easy to modify if you want to tweak its behavior. You'll need a Python installation to run this.
+
+### Visual Basic.NET Version (Historical - Use with Caution!)
+
+For historical reasons, the original Visual Basic .NET version is still included. However, we **strongly advise against using it.** This code is likely very old, probably "spaghetti code," and potentially quite terrible to maintain or even run safely. It's more of a relic than a recommendation!
+
+---
+
+# Installation & Usage
+
+---
+
 ## Quick stealth setup
 Follow these simple steps to install **Caffeine** on your system:
 
@@ -45,27 +67,7 @@ Follow these simple steps to install **Caffeine** on your system:
 
 ---
 
-## Versions Available
-
-We've got Caffeine brewing in a few different flavors to suit your preference:
-
-### PowerShell Version (Recommended)
-
-This is the **recommended** version for most Windows users. It's easy to run, integrates well with the system, and doesn't require any extra installations if you have PowerShell (which you do!).
-
-### Python Version (Recommended)
-
-If you're a Python enthusiast, this version is for you! It offers cross-platform potential (though currently focused on Windows) and is easy to modify if you want to tweak its behavior. You'll need a Python installation to run this.
-
-### Visual Basic.NET Version (Historical - Use with Caution!)
-
-For historical reasons, the original Visual Basic .NET version is still included. However, we **strongly advise against using it.** This code is likely very old, probably "spaghetti code," and potentially quite terrible to maintain or even run safely. It's more of a relic than a recommendation!
-
----
-
-## Installation & Usage
-
-### PowerShell
+## PowerShell
 
 1.  **Download:** Grab the `Caffeine.ps1` file from this repository.
     ```powershell
@@ -81,7 +83,7 @@ For historical reasons, the original Visual Basic .NET version is still included
     ```
 **Note:** *You may not have permission to run Powershell or they could be restricted by your admin so you could set execution policy for current user with* `Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser`.
 
-### Python
+## Python
 
 1.  **Prerequisites:** Make sure you have Python installed.
 2.  **Download:** Get the `caffeine.py` file.
