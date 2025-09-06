@@ -44,8 +44,6 @@ For historical reasons, the original Visual Basic .NET version is still included
 
 # Installation & Usage
 
----
-
 ## Quick stealth setup
 Follow these simple steps to install **Caffeine** on your system:
 
