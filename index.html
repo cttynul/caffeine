@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caffeine ☕ for Windows - Keep your PC awake</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+        :root {
+            --primary-color: #da0f0f; 
+            --background-color: #ffffff;
+            --card-background: #f0f0f0; 
+            --text-color: #1a1a1a;
+            --code-background: #e8e8e8;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            height: 100px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin: 0;
+        }
+
+        header p {
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .content-section {
+            background-color: var(--card-background);
+            padding: 40px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ddd;
+        }
+        
+        h2 {
+            font-size: 2rem;
+            font-weight: 600;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .version-card {
+            margin-bottom: 20px;
+        }
+
+        .version-card.historical {
+            opacity: 0.6;
+            border: 1px solid red;
+        }
+
+        .code-block {
+            background-color: var(--code-background);
+            padding: 15px;
+            border-radius: 8px;
+            position: relative;
+            margin-top: 15px;
+        }
+
+        .code-block pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 0.9rem;
+            margin: 0;
+            padding-right: 70px; /* Space for the button */
+        }
+
+        .copy-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: var(--primary-color);
+            color: var(--background-color);
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+
+        .copy-button:hover {
+            background-color: #d1883c;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 10px;
+        }
+        
+        /* Media Queries for responsiveness */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            header h1 {
+                font-size: 2.5rem;
+            }
+            
+            .content-section {
+                padding: 20px;
+            }
+
+            .logo {
+                height: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <h1>Caffeine ☕ for Windows</h1>
+        </div>
+        <p>Are you tired of your Windows PC dozing off when you need it most? Caffeine is here to keep your PC wide awake and your status forever green!</p>
+    </header>
+
+    <main>
+        <section id="disclaimer" class="content-section">
+            <h2>Disclaimer</h2>
+            <p>Now, a tiny, almost imperceptible disclaimer, whispered softly like a secret between friends: I take absolutely no responsibility if, by some twisted turn of fate, you're violating some obscure, arcane policy with this software. Because, let's be honest, if you've made it this far, past the initial setup screens and through the labyrinthine layers of IT bureaucracy, it's entirely possible that changing this particular setting isn't even an option in your PC's settings. You're probably in a situation where the only way out is through, or, you know, a strongly worded email to IT that will inevitably be ignored.</p>
+            <p>So, go forth, compile your hearts out, and may your executables run ever so smoothly. Just don't blame me when the corporate overlords discover your ingenious workaround. I'm just here to provide the chuckles and the occasional, entirely unhelpful, advice.</p>
+        </section>
+
+        <section id="how-it-works" class="content-section">
+            <h2>How It Works</h2>
+            <p>Caffeine's secret is delightfully simple: it <strong>simulates a keyboard key press every minute.</strong> Don't worry, it's not pressing `Shift` or `Space` and messing up your work. Instead, it presses an <strong>"unassigned" virtual key</strong> that Windows recognizes as activity, but doesn't actually do anything in your applications. This clever trick keeps your system active, preventing it from entering sleep mode due to inactivity.</p>
+        </section>
+        
+        <section id="versions" class="content-section">
+            <h2>Versions Available</h2>
+            <p>We've got Caffeine brewing in a few different flavors to suit your preference:</p>
+            
+            <article class="version-card">
+                <h3>PowerShell Version (Recommended)</h3>
+                <p>This is the <strong>recommended</strong> version for most Windows users. It's easy to run, integrates well with the system, and doesn't require any extra installations if you have PowerShell (which you do!).</p>
+                <div class="code-block">
+                    <pre id="code-ps1">Invoke-WebRequest -Uri "https://cttynul.github.io/caffeine/dl/Caffeine.ps1" -OutFile (Join-Path -Path (Get-Location) -ChildPath "Caffeine.ps1")</pre>
+                    <button class="copy-button" data-target="code-ps1">Copy</button>
+                </div>
+            </article>
+
+            <article class="version-card">
+                <h3>Python Version (Recommended)</h3>
+                <p>If you're a Python enthusiast, this version is for you! It offers cross-platform potential (though currently focused on Windows) and is easy to modify if you want to tweak its behavior. You'll need a Python installation to run this.</p>
+                <div class="code-block">
+                    <pre id="code-py">Invoke-WebRequest -Uri "https://cttynul.github.io/caffeine/dl/caffeine.py" -OutFile (Join-Path -Path (Get-Location) -ChildPath "caffeine.py")</pre>
+                    <button class="copy-button" data-target="code-py">Copy</button>
+                </div>
+            </article>
+
+            <article class="version-card historical">
+                <h3>Visual Basic.NET Version (Historical - Use with Caution!)</h3>
+                <p>For historical reasons, the original Visual Basic .NET version is still included. However, we <strong>strongly advise against using it.</strong> This code is likely very old, probably "spaghetti code," and potentially quite terrible to maintain or even run safely. It's more of a relic than a recommendation!</p>
+            </article>
+        </section>
+        
+        <section id="why-not-exe" class="content-section">
+            <h2>Why not a an .exe or similar?</h2>
+            <p>Alright, let's get down to brass tacks, or should I say, compiled bytes. You're wondering why not just stick to a good old .exe or something equally, well, executable? And frankly, it's a stellar question, much like asking why we still haven't achieved teleportation when clearly, it's the superior mode of travel.</p>
+            <p>Here's the deal: if your laptop is happily chugging along with `powershell.exe` or `python.exe` doing its thing, the chances of someone "accidentally" unleashing a nefarious trigger are, shall we say, astronomically low. We're talking "finding a unicorn riding a skateboard" levels of improbability. These are the workhorses, the unsung heroes, the digital equivalent of that one friend who always brings a spare phone charger. They're meant to be there, doing their job, not secretly plotting world domination (at least, not yet).</p>
+        </section>
+
+        <section id="installation" class="content-section">
+            <h2>Installation & Usage</h2>
+            
+            <article>
+                <h3>Quick Stealth Setup</h3>
+                <p>Follow these simple steps to install <strong>Caffeine</strong> on your system after downloading the Installer script:</p>
+                <div class="code-block">
+                    <pre id="code-ps1">Invoke-WebRequest -Uri "https://cttynul.github.io/caffeine/dl/Install.ps1" -OutFile (Join-Path -Path (Get-Location) -ChildPath "Caffeine.ps1")</pre>
+                    <button class="copy-button" data-target="code-ps1">Copy</button>
+                </div>
+                <ol>
+                    <li>Run the installer script:</li>
+                </ol>
+                <div class="code-block">
+                    <pre>.\Install.ps1</pre>
+                </div>
+            </article>
+            
+            <article>
+                <h3>PowerShell</h3>
+                <ol>
+                    <li><strong>Download:</strong> Grab the <code>Caffeine.ps1</code> file from this repository.</li>
+                    <li><strong>Run:</strong> Open PowerShell and navigate to the directory where you saved the file. Then run:</li>
+                </ol>
+                <div class="code-block">
+                    <pre>.\Caffeine.ps1</pre>
+                </div>
+            </article>
+
+            <article>
+                <h3>Python</h3>
+                <ol>
+                    <li><strong>Prerequisites:</strong> Make sure you have Python installed.</li>
+                    <li><strong>Download:</strong> Get the <code>caffeine.py</code> file.</li>
+                    <li><strong>Install dependencies:</strong> You might need `pywin32` for Windows-specific keypresses. Install it via pip:</li>
+                </ol>
+                <div class="code-block">
+                    <pre>pip install pywin32</pre>
+                </div>
+                <ol start="4">
+                    <li><strong>Run:</strong> Open Command Prompt or PowerShell, navigate to the file's directory, and run:</li>
+                </ol>
+                <div class="code-block">
+                    <pre>python caffeine.py</pre>
+                </div>
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; Caffeine. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="https://github.com/cttynul/caffeine" target="_blank">Caffine on GitHub</a> | 
+            <a href="https://github.com/cttynul" target="_blank">Developed with ❤️ by cttynul</a>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.copy-button').forEach(button => {
+            button.addEventListener('click', () => {
+                const targetId = button.getAttribute('data-target');
+                const targetElement = document.getElementById(targetId);
+                
+                // Create a temporary textarea to hold the text
+                const tempTextarea = document.createElement('textarea');
+                tempTextarea.value = targetElement.innerText;
+                document.body.appendChild(tempTextarea);
+
+                // Select and copy the text
+                tempTextarea.select();
+                document.execCommand('copy');
+                
+                // Remove the temporary textarea
+                document.body.removeChild(tempTextarea);
+                
+                // Provide user feedback
+                button.innerText = 'Copied!';
+                setTimeout(() => {
+                    button.innerText = 'Copy';
+                }, 2000);
+            });
+        });
+    </script>
+</body>
+</html>
