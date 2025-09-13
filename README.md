@@ -86,7 +86,7 @@ Follow these simple steps to install **Caffeine** on your system:
 1.  **Prerequisites:** Make sure you have Python installed.
 2.  **Download:** Get the `caffeine.py` file.
     ```powershell
-     Invoke-WebRequest -Uri "https://raw.githubusercontent.com/cttynul/caffeine/refs/heads/master/Powershell/Caffeine.ps1" -OutFile (Join-Path -Path (Get-Location) -ChildPath "caffeine.py")
+     Invoke-WebRequest -Uri "https://raw.githubusercontent.com/cttynul/caffeine/refs/heads/master/Python/caffeine.py" -OutFile (Join-Path -Path (Get-Location) -ChildPath "caffeine.py")
     ```
 3.  **Install dependencies:** You might need `pywin32` for Windows-specific keypresses. Install it via pip:
     ```bash
